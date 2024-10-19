@@ -1,0 +1,92 @@
+.carousel {/*Todo o carrossel*/
+    width: 60%;
+    max-width: 600px; 
+    margin: 0 auto; 
+    margin-top: 20px;
+    border: 2px solid #a09999; 
+    border-radius: 20px; 
+    overflow: hidden; /* Garante que as imagens não saiam da borda arredondada */
+}
+
+.carousel-inner img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+}
+
+/* Estilo para os indicadores (os pontinhos na parte inferior) */
+.carousel-indicators button {
+    background-color: #007bff; 
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%;
+}
+
+/* Estilo dos botões de controle (esquerda/direita) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /*Adiciona um fundo escuro ou semiescuro*/
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px; 
+}
+
+/* Estilizando o texto das legendas */
+.carousel-caption h5 {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: #000000; 
+}
+
+.carousel-caption p {
+    font-size: 1rem; 
+    color: #000000; 
+}
+
+/* Ajuste de margem e espaçamento para telas menores */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 200px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem; 
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel {
+        width: 100%; 
+    }
+
+    .carousel-inner img {
+        height: 150px; 
+    }
+}
+.btnbotaoListar-link{
+    margin-left: 10vh;
+    text-decoration: none;
+    color: #000000;
+    background-color: #8bbdf3;
+    padding: 10px;
+    border-radius: 5px;
+}
+.bntbotaocadastrar-link{
+    margin-left: 85vh;
+    text-decoration: none;
+    color: #000000;
+    background-color: #8bbdf3;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.containerbnt{
+    margin-top: 20px;
+    display: flex;
+    
+}
