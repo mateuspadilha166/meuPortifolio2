@@ -14,7 +14,7 @@ function Contato() {
                             <Card.Text>
                                 Conecte-se comigo no LinkedIn.
                             </Card.Text>
-                            <Button variant="primary" href="https://www.linkedin.com/in/seu-linkedin" target="_blank" rel="noopener noreferrer">
+                            <Button variant="primary" href="https://www.linkedin.com/in/mateus-padilha-41360a262/" target="_blank" rel="noopener noreferrer">
                                 Ir para LinkedIn
                             </Button>
                         </Card.Body>
@@ -27,7 +27,7 @@ function Contato() {
                             <Card.Text>
                                 Confira meus projetos no GitHub.
                             </Card.Text>
-                            <Button variant="primary" href="https://github.com/seuusuario" target="_blank" rel="noopener noreferrer">
+                            <Button variant="primary" href="https://github.com/mateuspadilha166" target="_blank" rel="noopener noreferrer">
                                 Ir para GitHub
                             </Button>
                         </Card.Body>
@@ -40,7 +40,7 @@ function Contato() {
                             <Card.Text>
                                 Entre em contato comigo pelo WhatsApp.
                             </Card.Text>
-                            <Button variant="primary" href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
+                            <Button variant="primary" href="https://wa.me/5547996496476" target="_blank" rel="noopener noreferrer">
                                 Ir para WhatsApp
                             </Button>
                         </Card.Body>
